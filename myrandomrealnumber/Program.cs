@@ -11,7 +11,7 @@ namespace myrandomrealnumber
         static void Main(string[] args)
         {
             Random random = new Random();
-            int num = random.Next(0, 200), user;
+            int num = random.Next(1, 200), user;
             Console.WriteLine(num);
 
             while (true)
